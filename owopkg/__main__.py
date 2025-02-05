@@ -9,10 +9,11 @@ cmds = dict(
 
 def main(*argv, _a = _a):
     L = len(argv)
-    if L - 1:
+    if L > 1:
         a = list(argv)
-        f = cmds[a.pop(0)]
-        f(' '.join(a))
+        f = cmds[a.pop(1)]
+        a.pop(0)
+        f(' '.join(a))()
     elif L: main(None, input('mode : '))
     else: main(*_a)
 
