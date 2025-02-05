@@ -8,7 +8,7 @@ setup(
     author_email='dutec6834@gmail.com',
     url='https://github.com/FarAway6834/owopkg',
     packages=find_packages(exclude=[]),
-    install_requires=['subpr',],
+    install_requires=['subpr', 'setuptools', 'wheel', 'twine'],
     keywords=['owopkg'],
     python_requires='>=3.6',
     package_data={},
