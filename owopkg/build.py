@@ -1,2 +1,2 @@
 cmd = "build"
-import lib; maingens(globals(), __name__, cmd)
+from . import lib; maingen(globals(), __name__, cmd)
