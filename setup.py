@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='owopkg',
-    version='0.0.1',
+    version='0.0.2',
     description='setuptools & wheel build -> twine deployment app',
     author='du7ec',
     author_email='dutec6834@gmail.com',

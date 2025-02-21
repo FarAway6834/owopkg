@@ -1,0 +1,4 @@
+#!/bin/sh
+python creates.py build
+python creates.py deploy
+python creates.py mybwb
