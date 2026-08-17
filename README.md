@@ -1,5 +1,5 @@
 # owopkg
-my PyPI pkg build/deploier
+my PyPI pkg build/deployer
 
 ## how 2 use
 
