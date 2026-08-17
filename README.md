@@ -16,3 +16,5 @@ deploy : `python -m owopkg deploy`
 if you aren't beginner, I suggest to using uv.
 
 ## [depandancy](https://faraway6834.github.io/martialaw)
+
+## [click to redirect repo page](https://github.com/FarAway6834/owopkg)
