@@ -13,4 +13,6 @@ deploy : `python -m owopkg deploy`
 
 ## feedback
 
-if you aren't beginner, using uv.
+if you aren't beginner, I suggest to using uv.
+
+## [depandancy](https://faraway6834.github.io/martialaw)
