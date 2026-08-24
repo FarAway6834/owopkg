@@ -2,10 +2,14 @@ from subpr.lib import subpr
 from sys import argv as _a
 
 python = lambda x : subpr(f'python {x}')
+buildeployer = lambda s: lambda a: (python(s.format(a)), python('-m owopkg deploy'))
+
 cmds = dict(
     build = lambda a: python(f'setup.py sdist {a}'),
     deploy = lambda a: python('-m twine upload dist/*'),
-    mybwb = lambda a: python(f'-m owopkg build bdist_wheel {a}')
+    mybwb = lambda a: python(f'-m owopkg build bdist_wheel {a}'),
+    buildeploy = lambda a: buildeployer('-m owopkg build {}'),
+    mybwbuildeploy = lambda a: buildeployer('-m owopkg mybwb {}')
 )
 
 def main(*argv, _a = _a):
